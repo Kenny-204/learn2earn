@@ -315,7 +315,7 @@ position: relative;
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("img/stat-image.png");
+  background-image: url("img/stat-image.webp");
   background-size: 40%;
   background-position: right;
   background-repeat: no-repeat;
@@ -401,7 +401,7 @@ position: relative;
 /* Need */
 .need{
 
-  background-image: url("img/need-img.png");
+  background-image: url("img/need-img.webp");
   background-size: 25%;
   background-position:top right;
   background-repeat: no-repeat;
@@ -519,7 +519,7 @@ position: relative;
 /* Pathways */
 .pathways{
  position: relative; 
-  background-image: url("img/path-card-img.png");
+  background-image: url("img/path-card-img.webp");
   background-size: 25%;
   background-position:bottom left;
   background-repeat: no-repeat;
@@ -657,20 +657,20 @@ position: relative;
 }
 .gain-card:nth-child(1){
   background-color: #335FAA52;
-  background-image: url("img/gain-1.png");
+  background-image: url("img/gain-1.webp");
   background-size: 25%;
   background-position:bottom left;
   background-repeat: no-repeat;
 }
 .gain-card:nth-child(2) {
   background: var(--peach);
-  background-image: url("img/gain-2.png");
+  background-image: url("img/gain-2.webp");
   background-size: 25%;
   background-position:bottom right;
   background-repeat: no-repeat;
 }
 .gain-card:nth-child(3){
-  background-image: url("img/gain-3.png");
+  background-image: url("img/gain-3.webp");
   background-size: 25%;
   background-position:bottom left;
   background: var(--peach);
@@ -678,7 +678,7 @@ position: relative;
 }
 .gain-card:nth-child(4) {
   background: var(--blue-card);
-  background-image: url("img/gain-4.png");
+  background-image: url("img/gain-4.webp");
   background-size: 25%;
   background-position:bottom right;
   background-repeat: no-repeat;

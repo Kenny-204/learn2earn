@@ -981,7 +981,11 @@ position: relative;
 
 /* Footer */
 footer {
-  background: #0a1030;
+  background-color: #010b21;
+  background-image: url("img/foot.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #c7cbe2;
   padding: 60px 0 44px;
 }
@@ -991,9 +995,10 @@ footer {
   gap: 40px;
 }
 .foot-brand strong {
-  font-family: "Poppins";
+  font-family: "Unbounded", sans-serif;
   color: #fff;
   font-size: 19px;
+  /* font-weight: 400; */
 }
 .foot-brand small {
   display: block;
@@ -1003,28 +1008,35 @@ footer {
 }
 .foot-brand .flogos {
   display: flex;
-  gap: 16px;
-  margin-top: 26px;
+  align-items: flex-end;
+  gap: 18px;
   align-items: center;
+  margin-top: 28px;
+  min-height: 86px;
 }
 .foot-brand .flogos .seal {
-  width: 48px;
-  height: 48px;
+  width: 30%;
   border-radius: 50%;
+  object-fit: contain;
+  transform: translateY(10px);
 }
 .foot-brand .flogos .hmark {
-  width: 44px;
-  height: 44px;
+  width: 30%;
+  
+  object-fit: contain;
+  transform: translateY(8px);
 }
 .foot-col h5 {
-  font-family: "Poppins";
-  font-size: 14px;
-  font-weight: 600;
+  font-family: "Unbounded", sans-serif;
+  font-size: 16px;
   color: #fff;
   margin-bottom: 18px;
+  font-weight: 400;
 }
 .foot-col a {
   display: block;
+  font-family: "Manrope", system-ui, sans-serif;
+  font-weight: 400;
   font-size: 13px;
   color: #9aa0c4;
   margin-bottom: 12px;
